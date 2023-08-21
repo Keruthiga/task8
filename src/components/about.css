@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+  }
+  
+  .about-content {
+    flex: 1; 
+    padding: 20px; 
+    max-width: 50%; 
+    box-sizing: border-box; 
+  }
+  
+  .about-image {
+    flex: 1; 
+    padding: 20px; 
+    max-width: 45%; 
+    box-sizing: border-box; 
+  }
+  
+  .about-image img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
